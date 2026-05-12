@@ -4,6 +4,8 @@ const userController = require("./controlers/userController")
 
 const app = express()
 
+app.use(express.json())
+
 function callbackDaraiz( request, response) {
     response.send("API aeromobilistica, Selva, Leões de guerraaaaaa, pantanal")
 }
@@ -11,5 +13,7 @@ function callbackDaraiz( request, response) {
 app.get("/", callbackDaraiz)
 
 app.get("/users", userController.GetAllUsers)
+
+app.post("/users", userController.createUser)
 
 module.exports = app
