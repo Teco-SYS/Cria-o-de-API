@@ -10,7 +10,7 @@ collection:
   - url: http://localhost:3000/
     name: Teste API
     meta:
-      id: req_15a1d12641334f3a9b110a743a05751f
+      id: req_364c100606fe4cfbb657575f6b8f2014
       created: 1778539600264
       modified: 1778540019459
       isPrivate: false
@@ -33,7 +33,7 @@ collection:
   - url: http://localhost:3000/users
     name: Listagem de Usuários
     meta:
-      id: req_0e98701260f549ef9f97eb2c56a3b185
+      id: req_b2588aaaf8084d2eb7cb270b04f9e280
       created: 1778540158974
       modified: 1778540791171
       isPrivate: false
@@ -56,7 +56,7 @@ collection:
   - url: http://localhost:3000/users
     name: Criar Usuário
     meta:
-      id: req_677da8f561da4220ba1f03e936b71f75
+      id: req_fbde3160d3b841a9936558bb4e527c7a
       created: 1778540797148
       modified: 1778541688649
       isPrivate: false
@@ -84,16 +84,39 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: http://localhost:3000/users/
+    name: Busca usuário por ID
+    meta:
+      id: req_e11d4e8eec994e73be1e20a7e8ded0f7
+      created: 1779150054494
+      modified: 1779152969492
+      isPrivate: false
+      description: ""
+      sortKey: -1778539600189
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1778539482603
-    modified: 1778539482603
+    created: 1779143246842
+    modified: 1779143246842
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1778539482599
-    modified: 1778539482599
+    created: 1779143246839
+    modified: 1779143246839
     isPrivate: false

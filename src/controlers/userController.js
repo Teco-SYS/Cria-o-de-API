@@ -21,7 +21,22 @@ function createUser(req, res)  {
     return res.status(201).json(createdUser)
 }
 
+const GetUserById = (req, res) => {
+    const id = Number(req.params.id)
+
+    const user = UserModel.FindById(id)
+
+    if(!user) {
+        return res.status(404).json({
+            message: "Usuário não encontrado"
+        })
+    }
+
+    return res.json(user)
+}
+
 module.exports =  {
     GetAllUsers,
-    createUser
+    createUser,
+    GetUserById
 }
