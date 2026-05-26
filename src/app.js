@@ -18,4 +18,8 @@ app.get("/users/:id", userController.GetUserById)
 
 app.post("/users", userController.createUser)
 
+app.put("/users/:id", userController.updateUser)
+
+app.delete("/users/:id", userController.deleteUser)
+
 module.exports = app

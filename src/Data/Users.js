@@ -1,23 +1,23 @@
 const ListaUsuarios = [
     {
         id: 1,
-        Name: "Mateus"
+        name: "Mateus"
     }, 
     {
         id: 2,
-        Name: "Adriana"
+        name: "Adriana"
     },
     {
         id: 3,
-        Name: "Jorge"
+        name: "Jorge"
     },
     {
         id: 4,
-        Name: "Lucas"
+        name: "Lucas"
     },
     {
         id: 5,
-        Name: "Fernanda"
+        name: "Fernanda"
     },
 ]
 
