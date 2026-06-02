@@ -10,7 +10,7 @@ collection:
   - url: http://localhost:3000/
     name: Teste API
     meta:
-      id: req_2f0060b932664a7d9bccfcdcabbdb0cf
+      id: req_260a0cb21d8d4093a1a7f97aa6c4b299
       created: 1778539600264
       modified: 1778540019459
       isPrivate: false
@@ -33,7 +33,7 @@ collection:
   - url: http://localhost:3000/users
     name: Listagem de Usuários
     meta:
-      id: req_bffed21236d64143aff3b66c14cbaf65
+      id: req_4b37ee913eab4c889809e0f0f360b85e
       created: 1778540158974
       modified: 1778540791171
       isPrivate: false
@@ -56,7 +56,7 @@ collection:
   - url: http://localhost:3000/users
     name: Criar Usuário
     meta:
-      id: req_440972b48b86403cb8ff88fccfe11a15
+      id: req_5709b8da51c54d63babdcf0ac878a056
       created: 1778540797148
       modified: 1778541688649
       isPrivate: false
@@ -84,16 +84,16 @@ collection:
         send: true
         store: true
       rebuildPath: true
-  - url: http://localhost:3000/users/1
+  - url: http://localhost:3000/users/3
     name: Busca usuário por ID
     meta:
-      id: req_81dc9f4c39044e44a1211b86e5ef0c32
+      id: req_a9a95493cea34db894b0dde71f8cf91f
       created: 1779150054494
-      modified: 1779757342199
+      modified: 1780355595522
       isPrivate: false
       description: ""
       sortKey: -1778539600189
-    method: DELETE
+    method: GET
     headers:
       - name: User-Agent
         value: insomnia/12.1.0
@@ -110,7 +110,7 @@ collection:
   - url: http://localhost:3000/users/3
     name: Atualizar Usuário
     meta:
-      id: req_3d5138ded4734abdb15805bc52bdee22
+      id: req_37c19f7fb36c45dea57265a0a9b41bad
       created: 1779750723112
       modified: 1779755231084
       isPrivate: false
@@ -141,13 +141,13 @@ collection:
   - url: http://localhost:3000/users/3
     name: Deletar usuário pelo ID
     meta:
-      id: req_0be3c87968ab4175a341224d85f8e860
+      id: req_989063472c4c48348b41332b37e7a2e8
       created: 1779757306928
-      modified: 1779757306928
+      modified: 1780355590073
       isPrivate: false
       description: ""
       sortKey: -1778539600176.5
-    method: GET
+    method: DELETE
     headers:
       - name: User-Agent
         value: insomnia/12.1.0
@@ -165,12 +165,12 @@ cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779747760439
-    modified: 1779747760439
+    created: 1780352669673
+    modified: 1780352669673
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1779747760436
-    modified: 1779747760436
+    created: 1780352669671
+    modified: 1780352669671
     isPrivate: false

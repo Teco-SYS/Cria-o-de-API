@@ -1,6 +1,5 @@
 const express = require("express")
-
-const userController = require("./controlers/userController")
+const userRoutes = require("./Routes/userRoutes")
 
 const app = express()
 
@@ -12,14 +11,6 @@ function callbackDaraiz( request, response) {
 
 app.get("/", callbackDaraiz)
 
-app.get("/users", userController.GetAllUsers)
-
-app.get("/users/:id", userController.GetUserById)
-
-app.post("/users", userController.createUser)
-
-app.put("/users/:id", userController.updateUser)
-
-app.delete("/users/:id", userController.deleteUser)
+app.use("/users", userRoutes)
 
 module.exports = app
